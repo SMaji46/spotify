@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="./external.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <!-- home & seach -->
+            <div class="nav">
+                <!-- home -->
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                   <a href="#">Home</a>
+                </div>
+                <!-- search -->
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <!-- library -->
+            <div class="library">
+                <!-- LIBRARY OPTION -->
+                <div class="options">
+                    <!-- library icon -->
+                 <div class="nav-option lib-option ">
+                    <div style="padding-top: .8rem;"><img src="./library_icon.png" alt=""></div>
+                    <a href="#">Your Library</a>
+                 </div>
+                 <!-- plus & right arrow -->
+                 <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                 </div>
+                </div>
+                <!-- suggestion box -->
+                
+                     <div class="lib-box">
+                        <!-- box1 -->
+                     <div class="box b1">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                     </div>
+                     <!-- box2 -->
+                     <div class="box b2">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                     </div>
+                     </div>
+                
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Top right side nav bar -->
+            <div class="sticky-nav">
+                <!-- left part -->
+                <div class="sticky-nav-icons">
+                    <div class="round"style="opacity: .5;"><img class="n-btn" src="./backward_icon.png" alt=""></div>
+                    <div class="round hide" style="opacity: .5;"><img class="hide n-btn"src="./forward_icon.png" alt=""></div>
+                </div>
+                <!-- right part -->
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge">
+                        <i class="fa-regular fa-circle-down" style="margin-right: .35rem;"></i>Install App
+                    </button>
+                    <div style="padding-top: .5rem;"><div class="round" ><i class="fa-regular fa-user" style="font-size: 1rem;"></i></div></div>
+                </div>
+            </div>
+            <!-- CARDS -->
+            <div>
+                <h2 class="nom"style="margin: 0px;">Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./card1img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+                <h2 class="nom">Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./card2img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card3img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card4img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card6img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+                <h2 class="nom">Spotify Original & Exclusive Podcasts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./card5img.jpeg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card7img.jpg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card8img.jpg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card9img.jpg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card10img.jpg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card11img.jpg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card12img.jpg" alt="" class="card-img">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+            </div>
+            <!-- below horizontal line -->
+            <div class="footer">
+             <div class="line"></div>
+            </div>
+        </div>
+        <!-- music play nav bar -->
+        <div class="music-player">
+            <!-- left -->
+            <div class="album">
+                <img src="./album_picture.jpeg" alt="" style="height: 3.5rem;">
+                <div>
+                    <p class="l1">Otnicka | Slowed Music</p>
+                <p class="l2">Otnicka</p>
+                </div>
+                <img class="alb-icon" src="./album_icon1.png" alt="" >
+                <img class="alb-icon"src="./album_icon2.png" alt=""style="height: 2rem;">
+            </div>
+            <!-- middle -->
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./player_icon1.png" class="player-control-icon" alt="">
+                    <img src="./player_icon2.png" class="player-control-icon"  alt="">
+                    <img src="./player_icon3.png" class="player-control-icon"  alt="" style="opacity: 1; height: 2rem;">
+                    <img src="./player_icon4.png" class="player-control-icon"  alt="">
+                    <img src="./player_icon5.png" class="player-control-icon"  alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" name="" id="" step="1">
+                    <span class="tot-time">04:53</span>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="controls">
+                <img src="./controls_icon1.png" alt="" class="control-icon sz">
+                <img src="./controld_icon2.png" alt="" class="control-icon sz">
+                <img src="./controls_icon3.png" alt="" class="control-icon">
+                <img src="./controls_icon4.png" alt="" class="control-icon">
+                <img src="./controls_icon5.png" alt="" class="control-icon sz">
+                <input type="range" name="" id="" style="width: 25%;" min="0" max="100"  step="5">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
