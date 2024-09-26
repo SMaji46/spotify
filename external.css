@@ -108,7 +108,7 @@ a{
     margin: .5rem 0;
 }
 .b2{
-    height: 13- rem;
+    height: 11rem;
 }
 .box-p1{
     font-size: 1rem;
@@ -279,6 +279,9 @@ input[type="range"]::-webkit-slider-thumb{
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -.25rem;
+}
+#play-pause-btn {
+    transition: opacity 0.3s ease;
 }
 p.l1{
     font-size: .9rem;

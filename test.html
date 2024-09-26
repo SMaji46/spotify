@@ -176,14 +176,14 @@
                 <div class="player-controls">
                     <img src="./player_icon1.png" class="player-control-icon" alt="">
                     <img src="./player_icon2.png" class="player-control-icon"  alt="">
-                    <img src="./player_icon3.png" class="player-control-icon"  alt="" style="opacity: 1; height: 2rem;">
+                    <img id="play-pause-btn" src="./player_icon3.png" class="player-control-icon" alt="" style="opacity: 1; height: 2rem;">
                     <img src="./player_icon4.png" class="player-control-icon"  alt="">
                     <img src="./player_icon5.png" class="player-control-icon"  alt="">
                 </div>
                 <div class="playback-bar">
-                    <span class="curr-time">00.00</span>
-                    <input type="range" min="0" max="100" name="" id="" step="1">
-                    <span class="tot-time">04:53</span>
+                  <span id="current-time" class="curr-time">00.00</span>
+                  <input id="progress-bar" type="range" min="0" max="100" step="1">
+                  <span class="tot-time">00:00</span>
                 </div>
             </div>
             <!-- right -->
@@ -197,5 +197,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
